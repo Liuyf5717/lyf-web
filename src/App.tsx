@@ -9,9 +9,6 @@ const App: React.FC = () => {
 
     const element = useRoutes(routes)
 
-    const tailLayout = {
-        wrapperCol: { offset: 8, span: 16 },
-    };
 
     const onFinish = (values: any) => {
         axios({
